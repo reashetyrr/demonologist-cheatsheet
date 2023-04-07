@@ -25,3 +25,19 @@ td:first-child {
     text-align: left;
     display: table-cell !important;
 }
+
+button[data-action] {
+    aspect-ratio: 1 / 1;
+    font-size: 1.2rem;
+}
+
+.btn-menu {
+    width: 100%;
+}
+
+.ghosts-badge {
+    top: -10px !important;
+    right: -10px;
+    position: absolute !important;
+}
+

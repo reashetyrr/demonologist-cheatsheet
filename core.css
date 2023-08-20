@@ -1,0 +1,212 @@
+html, body {
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.topbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    background-color: #333;
+    color: #fff;
+}
+
+.topbar h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    overflow: hidden;
+    flex-wrap: wrap;
+    padding: 0.5rem;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    color: #fff;
+}
+
+.evidences {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-shrink: 1;
+    overflow: hidden;
+    flex-wrap: wrap;
+    padding: 1.5rem;
+
+    height: 150px;
+
+    justify-content: space-evenly;
+}
+.evidence {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+    flex-shrink: 0;
+    overflow: auto;
+    padding: 0.5rem;
+
+    text-align: center;
+    border: 1px solid #333;
+    border-radius: 0.5rem;
+    background-color: #333;
+    height: 150px;
+    width: 150px;
+
+    cursor: pointer;
+}
+
+.evidence:hover {
+    background-color: #444;
+}
+
+.evidence.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.evidence.bg-green {
+    border-color: #0f0;
+    background: linear-gradient(0deg, rgba(0,255,0,0.2) 0%, rgba(0,255,0,0.2) 100%);
+}
+
+.evidence.bg-green:hover {
+    background-color: #0f0;
+    color: #444;
+}
+
+.evidence.bg-red {
+    border-color: #f00;
+    background: linear-gradient(0deg, rgba(255,0,0,0.2) 0%, rgba(255,0,0,0.2) 100%);
+}
+
+.evidence.bg-red:hover {
+    background-color: #f00;
+    color: #444;
+}
+
+.evidence i {
+    font-size: 3rem;
+    margin: 0.5rem;
+}
+
+.ghosts {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    overflow: auto;
+    padding: 0.5rem;
+
+    flex-wrap: wrap;
+}
+
+.ghost {
+    display: grid;
+    grid-template-columns: .5fr 1fr;
+    grid-template-rows: 50px 100px 1fr;
+    gap: 5px;
+    grid-template-areas:
+    "icon name"
+    "evidence evidence"
+    "info info";
+    overflow: auto;
+    padding: 0.5rem;
+    width: 22%;
+    height: 100%;
+
+    flex-grow: 1;
+    margin: 5px;
+
+    border: 1px solid #333;
+    border-radius: .5rem;
+}
+
+.ghost i.fa-solid {
+    font-size: 45px;
+    margin: 0.5rem;
+    text-align: center;
+}
+
+.ghost h2 {
+    grid-area: name;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 3rem;
+    text-align: center;
+    line-height: 50px;
+}
+
+.ghost .evidences {
+    grid-area: evidence;
+    margin: 0;
+    padding: 15px;
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-align: center;
+
+    display: flex;
+    flex-direction: row;
+    height: 105px;
+}
+
+.ghost .evidences .evidence {
+    width: 50px;
+    height: 50px;
+    cursor: initial;
+
+    background: transparent;
+}
+
+.ghost .evidences .evidence i {
+    font-size: 25px;
+    margin: 0;
+    line-height: 50px;
+}
+
+.ghost .info {
+    grid-area: info;
+    margin: 0;
+    font-weight: bold;
+
+    padding: 0 15px 15px 15px;
+}
+
+.ghost .info table td {
+    padding: 5px 5px 5px 0;
+}
+
+.ghost .info table td:last-child {
+    font-weight: initial;
+}
+
+.ghost.hidden {
+    display: none;
+}

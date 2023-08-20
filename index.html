@@ -3,34 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <title>Demonologist Cheatsheet</title>
+    <meta name="color-scheme" content="dark" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="demonologist, cheatsheet, ghost, evidence, table, ghost table, ghost evidence, ghost evidence table, ghost evidence list">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/5.2.3/darkly/bootstrap.min.css" integrity="sha512-YRcmztDXzJQCCBk2YUiEAY+r74gu/c9UULMPTeLsAp/Tw5eXiGkYMPC4tc4Kp1jx/V9xjEOCVpBe4r6Lx6n5dA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./dlg-cheatsheet.css">
-    <script src="./dlg-cheatsheet.js"></script>
+<!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/5.2.3/darkly/bootstrap.min.css" integrity="sha512-YRcmztDXzJQCCBk2YUiEAY+r74gu/c9UULMPTeLsAp/Tw5eXiGkYMPC4tc4Kp1jx/V9xjEOCVpBe4r6Lx6n5dA==" crossorigin="anonymous" referrerpolicy="no-referrer" />-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!--    <link rel="stylesheet" href="./dlg-cheatsheet.css">-->
+    <link rel="stylesheet" href="./core.css">
+    <script src="./cheatsheet-v2.js"></script>
+<!--    <script src="./dlg-cheatsheet.js"></script>-->
 </head>
 <body>
-<nav class="navbar navbar-dark navbar-expand-md bg-dark">
-    <div class="container-fluid"><a class="navbar-brand" href="#">Demonologist Cheatsheet</a><button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-        <div id="navcol-1" class="collapse navbar-collapse">
-            <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link active" href="#">Ghost Table</a></li>
-                <li class="nav-item"><a href="phone.html" class="nav-link">Phone version</a></li>
-            </ul>
+<div class="container">
+    <header class="topbar">
+        <h1>Demonologist Cheatsheet</h1>
+        <a href="./phone.html" class="pull-right">PHONE VERSION</a>
+    </header>
+    <main class="main">
+        <div class="evidences">
+            <div class="evidence" data-evidence="0">
+                <h2>EMF</h2>
+                <i class="fa-solid fa-radiation"></i>
+            </div>
+            <div class="evidence" data-evidence="1">
+                <h2>ESG</h2>
+                <i class="fa-solid fa-bolt"></i>
+            </div>
+            <div class="evidence" data-evidence="2">
+                <h2>Easel</h2>
+                <i class="fa-solid fa-paintbrush"></i>
+            </div>
+            <div class="evidence" data-evidence="3">
+                <h2>Ectoplasm</h2>
+                <i class="fa-solid fa-splotch"></i>
+            </div>
+            <div class="evidence" data-evidence="4">
+                <h2>Spirit box</h2>
+                <i class="fa-solid fa-walkie-talkie"></i>
+            </div>
+            <div class="evidence" data-evidence="5">
+                <h2>Fingerprints</h2>
+                <i class="fa-solid fa-fingerprint"></i>
+            </div>
+            <div class="evidence" data-evidence="6">
+                <h2>Freezing</h2>
+                <i class="fa-solid fa-snowflake"></i>
+            </div>
         </div>
-    </div>
-</nav>
-<div class="table-responsive">
-    <table class="table table-striped table-dark">
-        <thead>
-            <tr>
-                <th>EVIDENCE</th>
-            </tr>
-        </thead>
-        <tbody>
 
-        </tbody>
-    </table>
+        <template id="ghost-template">
+            <div class="ghost">
+                <i class="fa-solid fa-ghost"></i>
+                <h2 class="ghost-name"></h2>
+                <div class="evidences">
+                    <div class="evidence">
+                    </div>
+                    <div class="evidence">
+                    </div>
+                    <div class="evidence">
+                    </div>
+                </div>
+                <div class="info">
+                    <table>
+                        <tr>
+                            <td>Strength:</td>
+                            <td class="strength"></td>
+                        </tr>
+                        <tr>
+                            <td>Weakness:</td>
+                            <td class="weakness"></td>
+                        </tr>
+                    </table>
+
+                </div>
+            </div>
+        </template>
+        <div class="ghosts"></div>
+    </main>
+    <footer class="footer">
+        Made with ❤️ by &nbsp;<a href="https://reashetyr.software">Reashetyr</a>
+    </footer>
 </div>
+<!--<nav class="navbar navbar-dark navbar-expand-md bg-dark">-->
+<!--    <div class="container-fluid"><a class="navbar-brand" href="#">Demonologist Cheatsheet</a><button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>-->
+<!--        <div id="navcol-1" class="collapse navbar-collapse">-->
+<!--            <ul class="navbar-nav">-->
+<!--                <li class="nav-item"><a class="nav-link active" href="#">Ghost Table</a></li>-->
+<!--                <li class="nav-item"><a href="phone.html" class="nav-link">Phone version</a></li>-->
+<!--            </ul>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</nav>-->
+<!--<div class="table-responsive">-->
+<!--    <table class="table table-striped table-dark">-->
+<!--        <thead>-->
+<!--            <tr>-->
+<!--                <th>EVIDENCE</th>-->
+<!--            </tr>-->
+<!--        </thead>-->
+<!--        <tbody>-->
+
+<!--        </tbody>-->
+<!--    </table>-->
+<!--</div>-->
 </body>
 </html>

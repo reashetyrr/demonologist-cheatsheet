@@ -66,7 +66,7 @@ async function main() {
                 filter_state[evidence] = false;
             } else if (evidence_button.classList.contains('bg-red')) {
                 evidence_button.classList.remove('bg-red');
-                action = ignore;
+                action = 'ignore';
                 filter_state[evidence] = null;
             } else {
                 evidence_button.classList.add('bg-green');

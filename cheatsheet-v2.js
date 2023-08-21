@@ -57,16 +57,16 @@ async function main() {
         evidence_button.addEventListener('click', () => {
             const evidence = evidence_button.dataset.evidence;
             const ghosts = document.querySelectorAll('.ghost');
-            let action = 'add';
+
+            if (evidence_button.classList.contains('disabled') && !evidence_button.classList.contains('bg-red'))
+                return;
 
             if (evidence_button.classList.contains('bg-green')) {
                 evidence_button.classList.remove('bg-green');
                 evidence_button.classList.add('bg-red');
-                action = 'remove';
                 filter_state[evidence] = false;
             } else if (evidence_button.classList.contains('bg-red')) {
                 evidence_button.classList.remove('bg-red');
-                action = ignore;
                 filter_state[evidence] = null;
             } else {
                 evidence_button.classList.add('bg-green');
@@ -106,13 +106,22 @@ async function main() {
                     }
                 }
             }
-            for (const ev of ALL_EVIDENCES) {
-                if (!possible_combinations.has(ev)) {
-                    document.querySelector(`.main .evidence[data-evidence="${ev}"]`).classList.add('disabled');
-                } else {
+
+            if (possible_combinations.size === 0) {
+                for (const ev of ALL_EVIDENCES) {
                     document.querySelector(`.main .evidence[data-evidence="${ev}"]`).classList.remove('disabled');
                 }
+            } else {
+                for (const ev of ALL_EVIDENCES) {
+                    if (!possible_combinations.has(ev)) {
+                        document.querySelector(`.main .evidence[data-evidence="${ev}"]`).classList.add('disabled');
+                    } else {
+                        document.querySelector(`.main .evidence[data-evidence="${ev}"]`).classList.remove('disabled');
+                    }
+                }
             }
+            console.log(filter_state);
+            console.log(possible_combinations);
         });
     }
 }

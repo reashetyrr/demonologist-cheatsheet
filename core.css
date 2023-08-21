@@ -138,10 +138,9 @@ html, body {
     "info info";
     overflow: auto;
     padding: 0.5rem;
-    width: 22%;
+    width: 23%;
     height: 100%;
 
-    flex-grow: 1;
     margin: 5px;
 
     border: 1px solid #333;

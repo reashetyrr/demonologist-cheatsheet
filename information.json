@@ -74,9 +74,9 @@
     "naamah": {
         "evidences": [1,2,3],
         "additional": {
-            "description": null,
-            "secondary": null,
-            "weakness": null
+            "description": "The Naamah is known as a thief ghost. It has been observed that it behaves calmly to avoid attracting attention, and prefers to stay in the dark. It is seen that it relocates the tools",
+            "secondary": "can steal tools that are on the ground or that you are holding",
+            "weakness": "will turn on the light before it steals, cant steal items that are in the salt barrier"
         }
     },
     "abaddon": {
@@ -130,9 +130,9 @@
     "wraith": {
         "evidences": [0,3,5],
         "additional": {
-            "description": null,
-            "secondary": null,
-            "weakness": null
+            "description": "Wraith is known as a type of ghost that is very fond of its sleep. It doesn't like to be woken up. If you awaken a Wraith, you will have to suffer the consequences.",
+            "secondary": "very likely to hunt when awake. talking in Spirit Box, using the UV Light or candles will wake it up. using a Fulu to end hunt doesnt work",
+            "weakness": "very docile while sleeping, burning a Fulu makes it fall asleep"
         }
     },
     "myling": {
@@ -162,9 +162,9 @@
     "yokai": {
         "evidences": [0,2,4],
         "additional": {
-            "description": null,
-            "secondary": null,
-            "weakness": null
+            "description": "A Yokai s known as a ghost that is extremely sensitive to the concept of time. It is very punctual, time is everything for it. When you encounter a Yokai, it make be your last time if you don't take the time into consideration.",
+            "secondary": "Very active between 6-8, and 10-12 o'clock. It will hunt at least once between 8-10 o'clock.",
+            "weakness": "Will be calmer at hours other than 6-8 and 10-12. It will not react other than hunting between 8-10."
         }
     },
     "gul": {

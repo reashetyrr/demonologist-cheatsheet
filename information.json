@@ -139,7 +139,7 @@
         "evidences": [3, 4, 6],
         "additional": {
             "description": "We still haven't figured out how the Myling is related to fire, but it is known to have an affinity for it. We have observed that it is calmer in environments with fire nearby.",
-            "secondary": "AMyling will be aggressive if there is no fire nearby.",
+            "secondary": "A Myling will be aggressive if there is no fire nearby.",
             "weakness": "A Myling will put out the first nearby fire before hunting."
         }
     },

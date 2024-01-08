@@ -1,94 +1,94 @@
 {
     "iblis": {
-        "evidences": [1,2,4],
+        "evidences": [1, 2, 4],
         "additional": {
-            "description": "Iblis is known to be a type of ghost that can sense and see where its prey is, even from a distance. If you are close enough to the Iblis, you can hear it use words that other ghosts won´t",
-            "secondary": "cannot hide",
-            "weakness": "moves slower when close to its prey"
+            "description": "Iblis is known to be a type of ghost that can sense and see where its prey is, even from a distance. If you are close enough to the Iblis, you can hear it use words that other ghosts won't. It possesses a unique ability to vocalize distinct words, setting it apart from other spectral entities.",
+            "secondary": "It is impossible to hide from a Iblis.",
+            "weakness": "An Iblis moves slower when close to its prey."
         }
     },
     "deogen": {
-        "evidences": [1,3,5],
+        "evidences": [1, 3, 5],
         "additional": {
-            "description": "They are known to have no interest in anything other than the prey in its sights.",
-            "secondary": "more aggressive when hunting and close to their prey",
-            "weakness": "less aggressive when its prey is far away"
+            "description": "A Deogen has no interest in anything other than its prey. It becomes more aggressive when hunting and close to its prey.",
+            "secondary": "It is more aggressive when hunting and close to its prey.",
+            "weakness": "A Deogen is less aggressive when its prey is far away."
         }
     },
     "agash": {
-        "evidences": [3,5,6],
+        "evidences": [3, 5, 6],
         "additional": {
-            "description": "Agash is a Ghost that feeds on cold environments. If an Agash decides to hunt, you can see its breath.",
-            "secondary": "faster in colder environments",
-            "weakness": "movement slows down in warmer environments"
+            "description": "Agash is a ghost that thrives in cold environments, visible by its breath when hunting. It moves faster in colder environments but slows down in warmer ones.",
+            "secondary": "It moves faster in colder environments.",
+            "weakness": "An Agash's movement slows down in warm environments."
         }
     },
     "shade": {
-        "evidences": [2,3,4],
+        "evidences": [2, 3, 4],
         "additional": {
-            "description": "Shades are known as a ghost that are hypersensitive to light. They dislike being in brightly lit environments and always prefers the light to be off.",
-            "secondary": "more aggressive in the dark",
-            "weakness": "lighting up the environment weakens the Shade"
+            "description": "Shades are hypersensitive to light, avoiding brightly lit environments. They become more aggressive in the dark but are weakened when the environment is well-lit.",
+            "secondary": "Shades are more aggressive in the dark.",
+            "weakness": "Lighting up the environment weakens the Shade."
         }
     },
     "onryo": {
-        "evidences": [0,2,5],
+        "evidences": [0, 2, 5],
         "additional": {
-            "description": "Unlike other ghosts, Onryos are known as a jealous ghosts. They can choose one person, fall in love with them and attack anyone else.",
-            "secondary": "more aggressive when others are near their chosen lover",
-            "weakness": "will not harm their chosen lover"
+            "description": "Onryos are jealous ghosts that choose one person to fall in love with and attack anyone else. They become more aggressive when others are near their chosen lover but will not harm the chosen lover.",
+            "secondary": "Onryos are more aggressive when others are near their chosen lover.",
+            "weakness": "Onryos will not harm their chosen lover."
         }
     },
     "oni": {
-        "evidences": [0,5,6],
+        "evidences": [0, 5, 6],
         "additional": {
-            "description": "The Oni has a special ability that can quickly reduce the sanity of those close to it. It is a very dangerous ghost. If it wants to, it can quickly play with your sanity and decide to kill you.",
-            "secondary": "very fast",
+            "description": "The Oni possesses the ability to quickly reduce the sanity of those close to it. It is very fast and does not have a specific weakness.",
+            "secondary": "The Oni is very fast.",
             "weakness": null
         }
     },
     "thaye": {
-        "evidences": [2,4,5],
+        "evidences": [2, 4, 5],
         "additional": {
-            "description": "The Thaye is known as a ghost who can distort the concept of time. As a Thaye ages quickly, it is impossible to know their exact age.",
-            "secondary": "more aggressive and fast early game",
-            "weakness": "much slower and less aggressive when becoming older"
+            "description": "The Thaye is a ghost capable of distorting the concept of time. It is more aggressive and fast early in the game but becomes much slower and less aggressive as it ages.",
+            "secondary": "The Thaye is more aggressive and fast early in the game.",
+            "weakness": "The Thaye becomes much slower and less aggressive when becoming older."
         }
     },
     "raiju": {
-        "evidences": [1,3,6],
+        "evidences": [1, 3, 6],
         "additional": {
-            "description": "A Raiju is a ghost know to draw strength from solitude. Being alone may mean that you are easier prey for it. Raijus interact less when in a group.",
-            "secondary": "targets players who are alone",
-            "weakness": "being together makes the raiju more passive"
+            "description": "A Raiju draws strength from solitude, targeting players who are alone. It becomes more passive when players are together.",
+            "secondary": "A Raiju targets players who are alone.",
+            "weakness": "Being together makes the Raiju more passive."
         }
     },
     "mare": {
-        "evidences": [0,2,6],
+        "evidences": [0, 2, 6],
         "additional": {
-            "description": "A Mare is a type of ghost that likes to talk, though it has been observed to be less active than other Ghosts.",
-            "secondary": "difficult to detect",
-            "weakness": "will not hunt with someone nearby"
+            "description": "A Mare is a ghost that enjoys talking but is less active than other ghosts. It is difficult to detect and will not hunt when someone is nearby.",
+            "secondary": "A Mare is difficult to detect.",
+            "weakness": "A Mare will not hunt with someone nearby."
         }
     },
     "naamah": {
-        "evidences": [1,2,3],
+        "evidences": [1, 2, 3],
         "additional": {
-            "description": "The Naamah is known as a thief ghost. It has been observed that it behaves calmly to avoid attracting attention, and prefers to stay in the dark. It is seen that it relocates the tools",
-            "secondary": "can steal tools that are on the ground or that you are holding",
-            "weakness": "will turn on the light before it steals, cant steal items that are in the salt barrier"
+            "description": "A Naamah is a thief ghost, behaving calmly to avoid attention. It can steal tools on the ground or in your possession but cannot steal items within a salt barrier.",
+            "secondary": "A Naamah can steal tools on the ground or in your possession.",
+            "weakness": "A Naamah will turn on the light before stealing and can't steal items in the salt barrier."
         }
     },
     "abaddon": {
-        "evidences": [0,4,6],
+        "evidences": [0, 4, 6],
         "additional": {
-            "description": "The Abbadon is widely regarded as the most cunning type of ghost. They will not hunt their prey if they are defending themselves, but will usually hunt the defenseless.",
-            "secondary": "targets players who cannot defend themself",
-            "weakness": "very high change to ignore you while holding a crucifix"
+            "description": "The Abaddon is widely regarded as the most cunning ghost. It targets players who cannot defend themselves and has a high chance to ignore those holding a crucifix.",
+            "secondary": "A Abaddon targets players who cannot defend themselves.",
+            "weakness": "A Abaddon has a very high chance to ignore you while holding a crucifix."
         }
     },
     "guipo": {
-        "evidences": [1,3,4],
+        "evidences": [1, 3, 4],
         "additional": {
             "description": null,
             "secondary": null,
@@ -96,87 +96,87 @@
         }
     },
     "revenant": {
-        "evidences": [2,5,6],
+        "evidences": [2, 5, 6],
         "additional": {
-            "description": "A Revenant is known to be a very dangerous, unpredictable ghost. Regardless of your sanity, it can hunt you down if it feels like it.",
-            "secondary": "very unstable and hard to predict",
-            "weakness": "if it decides to stay calm, it makes it easier to find it"
+            "description": "A Revenant is a dangerous, unpredictable ghost that can hunt regardless of your sanity. It is very unstable and hard to predict but becomes easier to find when it stays calm.",
+            "secondary": "A Revenant is very unstable and hard to predict.",
+            "weakness": "If a Revenant decides to stay calm, it becomes easier to find."
         }
     },
     "poltergeist": {
-        "evidences": [1,4,5],
+        "evidences": [1, 4, 5],
         "additional": {
-            "description": "A Poltergeist is known as a ghost that likes to play with its environment. It can throw objects to lower your sanity.",
-            "secondary": "can throw multiple items at once, quickly reducing sanity",
-            "weakness": "calms down if there is nothing to throw"
+            "description": "A Poltergeist enjoys playing with its environment, throwing objects to lower your sanity. It calms down when there is nothing to throw.",
+            "secondary": "A Poltergeist can throw multiple items at once, quickly reducing sanity.",
+            "weakness": "A Poltergeist calms down if there is nothing to throw."
         }
     },
     "jinn": {
-        "evidences": [0,1,6],
+        "evidences": [0, 1, 6],
         "additional": {
-            "description": "Jinns are known to be more active than other ghosts. It has been observed that they're more active if someone is nearby.",
-            "secondary": "due to their high activity, they are prone to hunting",
-            "weakness": "due to their high activity, they are easier to detect"
+            "description": "Jinns are more active than other ghosts, especially when someone is nearby. Their high activity makes them prone to hunting but also easier to detect.",
+            "secondary": "Due to their high activity, Jinns are prone to hunting.",
+            "weakness": "Due to their high activity, Jinns are easier to detect."
         }
     },
     "hantu": {
-        "evidences": [2,4,6],
+        "evidences": [2, 4, 6],
         "additional": {
-            "description": "Hantus are known as ghosts that play with people's minds through their speech. If you somehow manage to talk to one, it will play with your sanity, making you more vulnerable.",
-            "secondary": "talking to it makes you an easier prey",
-            "weakness": "if cursed due to talking to it you can remove the curse with sanity pills"
+            "description": "Hantu's play with people's minds through their speech. Talking to it makes you an easier prey, but the curse from talking can be removed with sanity pills.",
+            "secondary": "Talking to Hantu makes you an easier prey.",
+            "weakness": "If cursed due to talking to Hantu, the curse can be removed with sanity pills."
         }
     },
     "wraith": {
-        "evidences": [0,3,5],
+        "evidences": [0, 3, 5],
         "additional": {
-            "description": "Wraith is known as a type of ghost that is very fond of its sleep. It doesn't like to be woken up. If you awaken a Wraith, you will have to suffer the consequences.",
-            "secondary": "very likely to hunt when awake. talking in Spirit Box, using the UV Light or candles will wake it up. using a Fulu to end hunt doesnt work",
-            "weakness": "very docile while sleeping, burning a Fulu makes it fall asleep"
+            "description": "A Wraith is a ghost that values its sleep and dislikes being woken up. It is very likely to hunt when awoken. Talking in a Spirit Box, using the UV Light or having lit candles will wake it up. Using a Fulu to end the hunt doesn't work.",
+            "secondary": "A Wraith is very likely to hunt when awake.",
+            "weakness": "A Wraith is very docile while sleeping. Burning a Fulu outside of a hunt makes it fall asleep."
         }
     },
     "myling": {
-        "evidences": [3,4,6],
+        "evidences": [3, 4, 6],
         "additional": {
             "description": "We still haven't figured out how the Myling is related to fire, but it is known to have an affinity for it. We have observed that it is calmer in environments with fire nearby.",
-            "secondary": "without fire nearby it will be aggressive",
-            "weakness": "will put out the first nearby first before hunting"
+            "secondary": "AMyling will be aggressive if there is no fire nearby.",
+            "weakness": "A Myling will put out the first nearby fire before hunting."
         }
     },
     "goryo": {
-        "evidences": [0,1,5],
+        "evidences": [0, 1, 5],
         "additional": {
             "description": "A Goryo doesn't interact with ESGs if someone is nearby. Since it's a very rare type of ghost, we don't have much information other than that.",
-            "secondary": "only interacts with ESG without anyone nearby",
+            "secondary": "A Goryo only interacts with ESG without anyone nearby.",
             "weakness": null
         }
     },
     "demon": {
-        "evidences": [2,3,6],
+        "evidences": [2, 3, 6],
         "additional": {
-            "description": "Demons are known as normally calm, collected ghosts. They have a lower prey drive than other types of ghosts, but if you manage to anger a demon, it will not stop until it kills you.",
-            "secondary": "hunt wont end untill its prey is dead",
-            "weakness": "wont usually hunt unless angered"
+            "description": "Demons are known as calm, collected ghosts. They have a lower prey drive than other types of ghosts, but if you manage to anger a demon, it will not stop until it kills you.",
+            "secondary": "The hunt won't end until the demon's prey is dead, burned a cross or walked in a salt circle.",
+            "weakness": "Demons won't usually hunt unless angered."
         }
     },
     "yokai": {
-        "evidences": [0,2,4],
+        "evidences": [0, 2, 4],
         "additional": {
-            "description": "A Yokai s known as a ghost that is extremely sensitive to the concept of time. It is very punctual, time is everything for it. When you encounter a Yokai, it make be your last time if you don't take the time into consideration.",
-            "secondary": "Very active between 6-8, and 10-12 o'clock. It will hunt at least once between 8-10 o'clock.",
-            "weakness": "Will be calmer at hours other than 6-8 and 10-12. It will not react other than hunting between 8-10."
+            "description": "A Yokai is known as a ghost that is extremely sensitive to the concept of time. It is very punctual; time is everything for it. When you encounter a Yokai, it may be your last time if you don't take the time into consideration.",
+            "secondary": "A Yokai is very active between 6-8 and 10-12. It will hunt at least once between 8-10.",
+            "weakness": "A Yokai will be calmer at hours other than 6-8 and 10-12. It will not react other than hunting between 8-10."
         }
     },
     "gul": {
-        "evidences": [4,5,6],
+        "evidences": [4, 5, 6],
         "additional": {
             "description": "The Gul is known as a ghost who listens to the conversations between people. The words you choose are important to it.",
-            "secondary": "can get angry and hunt when swearing",
-            "weakness": "the less you talk the calmer it is"
+            "secondary": "A Gul can get angry and hunt when swearing.",
+            "weakness": "The less you talk, the calmer A Gul is."
         }
     },
     "boogey": {
-        "evidences": [0,1,4],
+        "evidences": [0, 1, 4],
         "additional": {
             "description": null,
             "secondary": null,
@@ -184,11 +184,11 @@
         }
     },
     "yurei": {
-        "evidences": [0,1,3],
+        "evidences": [0, 1, 3],
         "additional": {
-            "description": "The Yurei is a Ghost that prefers feeding small amounts of energy off multiple People at once, so that it can grow stronger without being noticed immediately",
-            "secondary": "more likely to hunt when walking in groups",
-            "weakness": "may weaken itself while alone"
+            "description": "The Yurei is a ghost that prefers feeding small amounts of energy off multiple people at once, so that it can grow stronger without being noticed immediately.",
+            "secondary": "A Yurei is more likely to hunt when walking in groups.",
+            "weakness": "A Yurei may weaken itself while alone."
         }
     }
 }

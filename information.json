@@ -3,16 +3,16 @@
         "evidences": [1, 2, 4],
         "additional": {
             "description": "Iblis is known to be a type of ghost that can sense and see where its prey is, even from a distance. If you are close enough to the Iblis, you can hear it use words that other ghosts won't. It possesses a unique ability to vocalize distinct words, setting it apart from other spectral entities.",
-            "secondary": "It is impossible to hide from Iblis.",
-            "weakness": "Iblis moves slower when close to its prey."
+            "secondary": "It is impossible to hide from a Iblis.",
+            "weakness": "An Iblis moves slower when close to its prey."
         }
     },
     "deogen": {
         "evidences": [1, 3, 5],
         "additional": {
-            "description": "Deogen has no interest in anything other than its prey. It becomes more aggressive when hunting and close to the target.",
+            "description": "A Deogen has no interest in anything other than its prey. It becomes more aggressive when hunting and close to its prey.",
             "secondary": "It is more aggressive when hunting and close to its prey.",
-            "weakness": "Deogen is less aggressive when its prey is far away."
+            "weakness": "A Deogen is less aggressive when its prey is far away."
         }
     },
     "agash": {
@@ -20,7 +20,7 @@
         "additional": {
             "description": "Agash is a ghost that thrives in cold environments, visible by its breath when hunting. It moves faster in colder environments but slows down in warmer ones.",
             "secondary": "It moves faster in colder environments.",
-            "weakness": "Agash's movement slows down in warmer environments."
+            "weakness": "An Agash's movement slows down in warm environments."
         }
     },
     "shade": {
@@ -59,7 +59,7 @@
         "evidences": [1, 3, 6],
         "additional": {
             "description": "A Raiju draws strength from solitude, targeting players who are alone. It becomes more passive when players are together.",
-            "secondary": "Raiju targets players who are alone.",
+            "secondary": "A Raiju targets players who are alone.",
             "weakness": "Being together makes the Raiju more passive."
         }
     },
@@ -67,24 +67,24 @@
         "evidences": [0, 2, 6],
         "additional": {
             "description": "A Mare is a ghost that enjoys talking but is less active than other ghosts. It is difficult to detect and will not hunt when someone is nearby.",
-            "secondary": "Mare is difficult to detect.",
-            "weakness": "Mare will not hunt with someone nearby."
+            "secondary": "A Mare is difficult to detect.",
+            "weakness": "A Mare will not hunt with someone nearby."
         }
     },
     "naamah": {
         "evidences": [1, 2, 3],
         "additional": {
-            "description": "Naamah is a thief ghost, behaving calmly to avoid attention. It can steal tools on the ground or in your possession but cannot steal items within a salt barrier.",
-            "secondary": "Naamah can steal tools on the ground or in your possession.",
-            "weakness": "Naamah will turn on the light before stealing and can't steal items in the salt barrier."
+            "description": "A Naamah is a thief ghost, behaving calmly to avoid attention. It can steal tools on the ground or in your possession but cannot steal items within a salt barrier.",
+            "secondary": "A Naamah can steal tools on the ground or in your possession.",
+            "weakness": "A Naamah will turn on the light before stealing and can't steal items in the salt barrier."
         }
     },
     "abaddon": {
         "evidences": [0, 4, 6],
         "additional": {
-            "description": "Abaddon is widely regarded as the most cunning ghost. It targets players who cannot defend themselves and has a high chance to ignore those holding a crucifix.",
-            "secondary": "Abaddon targets players who cannot defend themselves.",
-            "weakness": "Abaddon has a very high chance to ignore you while holding a crucifix."
+            "description": "The Abaddon is widely regarded as the most cunning ghost. It targets players who cannot defend themselves and has a high chance to ignore those holding a crucifix.",
+            "secondary": "A Abaddon targets players who cannot defend themselves.",
+            "weakness": "A Abaddon has a very high chance to ignore you while holding a crucifix."
         }
     },
     "guipo": {
@@ -122,7 +122,7 @@
     "hantu": {
         "evidences": [2, 4, 6],
         "additional": {
-            "description": "Hantus play with people's minds through their speech. Talking to it makes you an easier prey, but the curse from talking can be removed with sanity pills.",
+            "description": "Hantu's play with people's minds through their speech. Talking to it makes you an easier prey, but the curse from talking can be removed with sanity pills.",
             "secondary": "Talking to Hantu makes you an easier prey.",
             "weakness": "If cursed due to talking to Hantu, the curse can be removed with sanity pills."
         }
@@ -130,32 +130,32 @@
     "wraith": {
         "evidences": [0, 3, 5],
         "additional": {
-            "description": "Wraith is a ghost that values its sleep and dislikes being woken up. It becomes very likely to hunt when awake. Talking in Spirit Box, using the UV Light or candles will wake it up. Using a Fulu to end the hunt doesn't work.",
-            "secondary": "Wraith is very likely to hunt when awake.",
-            "weakness": "Wraith is very docile while sleeping. Burning a Fulu makes it fall asleep."
+            "description": "A Wraith is a ghost that values its sleep and dislikes being woken up. It is very likely to hunt when awoken. Talking in a Spirit Box, using the UV Light or having lit candles will wake it up. Using a Fulu to end the hunt doesn't work.",
+            "secondary": "A Wraith is very likely to hunt when awake.",
+            "weakness": "A Wraith is very docile while sleeping. Burning a Fulu outside of a hunt makes it fall asleep."
         }
     },
     "myling": {
         "evidences": [3, 4, 6],
         "additional": {
             "description": "We still haven't figured out how the Myling is related to fire, but it is known to have an affinity for it. We have observed that it is calmer in environments with fire nearby.",
-            "secondary": "Without fire nearby, Myling will be aggressive.",
-            "weakness": "Myling will put out the first nearby fire before hunting."
+            "secondary": "AMyling will be aggressive if there is no fire nearby.",
+            "weakness": "A Myling will put out the first nearby fire before hunting."
         }
     },
     "goryo": {
         "evidences": [0, 1, 5],
         "additional": {
             "description": "A Goryo doesn't interact with ESGs if someone is nearby. Since it's a very rare type of ghost, we don't have much information other than that.",
-            "secondary": "Goryo only interacts with ESG without anyone nearby.",
+            "secondary": "A Goryo only interacts with ESG without anyone nearby.",
             "weakness": null
         }
     },
     "demon": {
         "evidences": [2, 3, 6],
         "additional": {
-            "description": "Demons are known as normally calm, collected ghosts. They have a lower prey drive than other types of ghosts, but if you manage to anger a demon, it will not stop until it kills you.",
-            "secondary": "The hunt won't end until the demon's prey is dead.",
+            "description": "Demons are known as calm, collected ghosts. They have a lower prey drive than other types of ghosts, but if you manage to anger a demon, it will not stop until it kills you.",
+            "secondary": "The hunt won't end until the demon's prey is dead, burned a cross or walked in a salt circle.",
             "weakness": "Demons won't usually hunt unless angered."
         }
     },
@@ -163,16 +163,16 @@
         "evidences": [0, 2, 4],
         "additional": {
             "description": "A Yokai is known as a ghost that is extremely sensitive to the concept of time. It is very punctual; time is everything for it. When you encounter a Yokai, it may be your last time if you don't take the time into consideration.",
-            "secondary": "Yokai is very active between 6-8 and 10-12 o'clock. It will hunt at least once between 8-10 o'clock.",
-            "weakness": "Yokai will be calmer at hours other than 6-8 and 10-12. It will not react other than hunting between 8-10."
+            "secondary": "A Yokai is very active between 6-8 and 10-12. It will hunt at least once between 8-10.",
+            "weakness": "A Yokai will be calmer at hours other than 6-8 and 10-12. It will not react other than hunting between 8-10."
         }
     },
     "gul": {
         "evidences": [4, 5, 6],
         "additional": {
             "description": "The Gul is known as a ghost who listens to the conversations between people. The words you choose are important to it.",
-            "secondary": "Gul can get angry and hunt when swearing.",
-            "weakness": "The less you talk, the calmer Gul is."
+            "secondary": "A Gul can get angry and hunt when swearing.",
+            "weakness": "The less you talk, the calmer A Gul is."
         }
     },
     "boogey": {
@@ -187,8 +187,8 @@
         "evidences": [0, 1, 3],
         "additional": {
             "description": "The Yurei is a ghost that prefers feeding small amounts of energy off multiple people at once, so that it can grow stronger without being noticed immediately.",
-            "secondary": "Yurei is more likely to hunt when walking in groups.",
-            "weakness": "Yurei may weaken itself while alone."
+            "secondary": "A Yurei is more likely to hunt when walking in groups.",
+            "weakness": "A Yurei may weaken itself while alone."
         }
     }
 }

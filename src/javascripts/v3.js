@@ -43,7 +43,7 @@ const build_ghosts = (ghost_infos) => {
         ghost_weakness_element.textContent = ghost_info.additional.weakness || 'Unknown';
 
         if (ghost_info.additional.description) {
-            ghost_description_element.innerHTML = ghost_info.additional.description.split('. ').join('.<br>');
+            ghost_description_element.innerHTML = ghost_info.additional.description.split('. ').join('.<br><br>');
         } else {
             ghost_description_element.textContent = 'We currently have no information on this ghost';
         }

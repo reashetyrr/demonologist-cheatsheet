@@ -13,7 +13,7 @@ html, body {
     grid-template-rows: 50px 100px 1fr;
     gap: 5px;
     grid-template-areas:
-    "icon name"
+    "name name"
     "evidence evidence"
     "info info";
     overflow: auto;

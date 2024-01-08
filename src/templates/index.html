@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demonologist Cheatsheet</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../styles/demonologist_cheatsheet.css">
+</head>
+<body class="dark bg-zinc-800 flex flex-col">
+<template id="ghost-template">
+    <div class="ghost text-zinc-300">
+        <i class="fa-solid fa-ghost"></i>
+        <h2 class="ghost-name"></h2>
+        <div class="evidences">
+            <div class="evidence">
+            </div>
+            <div class="evidence">
+            </div>
+            <div class="evidence">
+            </div>
+        </div>
+        <div class="info">
+            <table>
+                <tr>
+                    <td>Strength:</td>
+                    <td class="strength"></td>
+                </tr>
+                <tr>
+                    <td>Weakness:</td>
+                    <td class="weakness"></td>
+                </tr>
+            </table>
+
+        </div>
+    </div>
+</template>
+<nav class="flex-no-wrap relative flex w-full items-center justify-between bg-white py-2 shadow-md shadow-black/5 dark:bg-zinc-900 dark:shadow-black/10 lg:flex-wrap lg:justify-start lg:py-4" data-te-navbar-ref>
+    <h1 class="ml-2 text-3xl text-zinc-300">Demonologist Cheatsheet</h1>
+    <button class="ml-auto mr-2 text-zinc-300 border-2 border-zinc-300 p-2" data-action="reset">Reset</button>
+</nav>
+<main class="flex flex-1 flex-col">
+    <div id="ghosts" class="flex-1 grid grid-cols-2 md:grid-cols-4 p-4 gap-2 justify-between"></div>
+    <footer class="flex tems-center text-center text-zinc-300 text-sm border-t-2 sticky bottom-0 bg-zinc-800">
+        <div class="evidence p-4 flex-1 border-r-2" data-evidence="0">
+            <h2 class="hidden md:block">EMF</h2>
+            <i class="fa-solid fa-radiation text-3xl"></i>
+        </div>
+        <div class="evidence p-4 flex-1 border-r-2" data-evidence="1">
+            <h2 class="hidden md:block">ESG</h2>
+            <i class="fa-solid fa-bolt text-3xl"></i>
+        </div>
+        <div class="evidence p-4 flex-1 border-r-2" data-evidence="2">
+            <h2 class="hidden md:block">Easel</h2>
+            <i class="fa-solid fa-paintbrush text-3xl"></i>
+        </div>
+        <div class="evidence p-4 flex-1 border-r-2" data-evidence="3">
+            <h2 class="hidden md:block">Ectoplasm</h2>
+            <i class="fa-solid fa-splotch text-3xl"></i>
+        </div>
+        <div class="evidence p-4 flex-1 border-r-2" data-evidence="4">
+            <h2 class="hidden md:block">Spirit box</h2>
+            <i class="fa-solid fa-walkie-talkie text-3xl"></i>
+        </div>
+        <div class="evidence p-4 flex-1 border-r-2" data-evidence="5">
+            <h2 class="hidden md:block">Fingerprints</h2>
+            <i class="fa-solid fa-fingerprint text-3xl"></i>
+        </div>
+        <div class="evidence p-4 flex-1" data-evidence="6">
+            <h2 class="hidden md:block">Freezing</h2>
+            <i class="fa-solid fa-snowflake text-3xl"></i>
+        </div>
+    </footer>
+</main>
+<script src="../javascripts/v3.js"></script>
+<script src="../../node_modules/tw-elements/dist/js/tw-elements.es.min.js"></script>
+</body>
+</html>

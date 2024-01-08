@@ -28,6 +28,7 @@ const build_ghosts = (ghost_infos) => {
         const ghost_evidences = ghost_element.querySelectorAll('.evidence');
         const ghost_strength_element = ghost_element.querySelector('.strength');
         const ghost_weakness_element = ghost_element.querySelector('.weakness');
+        const ghost_description_element = ghost_element.querySelector('.description');
 
         ghost_name_element.textContent = ghost_name;
         ghost_element.dataset.evidences = ghost_info.evidences.join(' ');
@@ -42,23 +43,10 @@ const build_ghosts = (ghost_infos) => {
         ghost_weakness_element.textContent = ghost_info.additional.weakness || 'Unknown';
 
         if (ghost_info.additional.description) {
-            const description_sections = ghost_info.additional.description.split('. ');
-            let is_first = true;
-            for (const section of description_sections) {
-                const p_tag = document.createElement('p');
-                if (is_first) {
-                    p_tag.classList.add('mt-2', 'border-t-2', 'pt-2');
-                    is_first = false;
-                }
-                p_tag.textContent = section;
-                ghost_element.querySelector('.info').appendChild(p_tag);
-            }
+            ghost_description_element.innerHTML = ghost_info.additional.description.split('. ').join('.<br>');
         } else {
-            const p_tag = document.createElement('p');
-            p_tag.textContent = 'We currently have no information on this ghost';
-            ghost_element.querySelector('.info').appendChild(p_tag);
+            ghost_description_element.textContent = 'We currently have no information on this ghost';
         }
-
         ghosts_element.appendChild(ghost_element);
     }
 }

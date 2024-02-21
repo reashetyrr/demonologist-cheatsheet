@@ -90,9 +90,9 @@
     "guipo": {
         "evidences": [1, 3, 4],
         "additional": {
-            "description": null,
-            "secondary": null,
-            "weakness": null
+            "description": "A Guipo is a playful ghost that enjoys games and can adjust its speed based on the situation. It likes playing games with people, and when it's playing, there's no danger. However, if it gets bored, that's when problems arise. It has been noticed that Guipos engage in playful interactions with their victims for 6 to 8 minutes before turning aggressive.",
+            "secondary": "A Guipo will use fake hunts, it cannot kill you during a fake hunt and is very fast during the fake hunts.",
+            "weakness": "A Guipo their speed will go back to normal when actually hunting you, it cannot kill you in a fake hunt"
         }
     },
     "revenant": {
@@ -178,9 +178,9 @@
     "boogey": {
         "evidences": [0, 1, 4],
         "additional": {
-            "description": null,
-            "secondary": null,
-            "weakness": null
+            "description": "A boogey is considered one of the most dangerous ghosts to encounter because it doesn't want to be discovered. To protect itself, it has created a defense system and draws strength from objects that generate paranormal energy. It's believed that a boogey prefers to have the lights on. If you manage to find the room it occupies, you're putting yourself in great danger.",
+            "secondary": "If you use an EMF reader, ESG, or Spiritbox in a Boogey's room, it will rapidly deplete your sanity.",
+            "weakness": "A boogey will always attempt to turn on any nearby light that is switched off. Furthermore, a light that is close to a boogey will not break."
         }
     },
     "yurei": {
